@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> First Homework Assignment </title>
+</head>
+    <style>
+        table,th,td {
+            border: 1px solid black;
+            width: 500px;
+        }
+    </style>
+    <form>
+<body>
+    <table> 
+            <tr>  
+                <th colspan="2"> <strong> Pizza Shop 2.0 </strong> </th> 
+            </tr>   
+
+            <tr>
+                <td> Name </td>
+                <td> <input type="text" id="Name" value=""> </td> 
+            </tr>  
+
+            <tr>
+                <td> Pizza Topping </td>
+                <td>
+                    <input type="radio" id="Supreme" value="Supreme">
+                    <label for="Supreme"> Supreme </label> <br>
+                    <input type="radio" id="Vegetarian" value="Vegetarian">
+                    <label for="Vegetarian"> Vegetarian </label> <br>
+                    <input type="radio" id="Hawaiian" value="Hawaiian">
+                    <label for="Hawaiian"> Hawaiian </label> <br>
+                </td>
+            </tr>
+
+            <tr>
+                <td> Pizza Sauce </td>
+                <td> <select id="PizzaSauce" name="PizzaSauce">
+                <option value="Tomato"> Tomato </option> </td>
+            </tr>
+
+            <tr>
+                <td> Optional Extras </td>
+                <td>
+                    <input type="checkbox" id="Extra Cheese" value="Extra Cheese">
+                    <label for="Extra Cheese"> Extra Cheese </label>
+                    <input type="checkbox" id="Gluten Free Base" value="Gluten Free Base">
+                    <label for="Gluten Free Base">Gluten Free Base </label>
+                </td>
+            </tr>
+
+            <tr>
+                 <td colspan="2"> Delivery Instructions: <br> <textarea name="Delivery Instructions:" cols="50" rows="4"></textarea>
+            </tr>
+
+            <tr>
+                <td colspan="2"> <button type="submit" value="submit"> Send my Order </button> </td>
+            </tr>
+    </table>
+    </form>
+</body>
+</html>
